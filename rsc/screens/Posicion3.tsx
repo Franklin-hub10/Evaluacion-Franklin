@@ -1,7 +1,7 @@
 import React from 'react'
 import { StyleSheet, View } from 'react-native'
 
-const Posicion2 = () => {
+const Posicion3 = () => {
   return (
 
         <View style={styles.container}>
@@ -22,48 +22,49 @@ const styles = StyleSheet.create({
         height: '100%',
         marginTop: 10,
         backgroundColor: 'blue',
-
-       alignItems: 'center',
+  
       //  alignItems: 'center',
-       flexDirection: 'column'
+   
      
     },
 
 
     boxPurple: {
-      flex: 1,
-        width: '100%',
-        height: '100%',
+    //  flex: 1,
+        width: 100,
+        height: 100,
         backgroundColor: '#EE82EE',
         borderWidth: 10,
         borderColor: 'white',
       //  alignItems: 'center',
+      alignSelf: 'flex-start',
       
     },
 
     boxOrange: {
-      flex:1,
-        width:'100%',
-        height: '100%',
+    //  flex:1,
+        width:100,
+        height: 100,
         backgroundColor: 'orange',
         borderWidth: 10,
-        borderColor: 'white'
+        borderColor: 'white',
+        alignSelf: 'center',
     },
 
     boxGreen: {
-      flex:1,
-        width: '100%',
-        height: '100%',
+     // flex:1,
+        width: 100,
+        height: 100,
         backgroundColor: '#00FFFF',
         borderWidth: 10,
         borderColor: 'white',
-      
+        alignSelf: 'flex-end',
       //  bottom: 0
     },
 })
 
 
-export default Posicion2
+export default Posicion3
 
 
 
